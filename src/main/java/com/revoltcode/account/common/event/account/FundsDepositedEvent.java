@@ -1,4 +1,4 @@
-package com.revoltcode.account.common.event;
+package com.revoltcode.account.common.event.account;
 
 import com.revoltcode.cqrs.core.event.BaseEvent;
 import lombok.AllArgsConstructor;
