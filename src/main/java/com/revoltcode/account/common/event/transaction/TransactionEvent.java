@@ -6,6 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
 
+import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 @Data
@@ -14,7 +15,7 @@ import java.time.LocalDateTime;
 @SuperBuilder
 public class TransactionEvent extends BaseEvent {
     private String accountName;
-    private double amount;
+    private BigDecimal amount;
     private String description;
     private TransactionType transactionType;
     private LocalDateTime transactionTime;
